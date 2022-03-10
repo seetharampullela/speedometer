@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.heading1 {
+  color: white;
+}
+.heading2 {
+  color: white;
+}
+.description {
+  color: white;
+}
+.speedometer {
+  width: 50%;
+}
+
+.button1 {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
